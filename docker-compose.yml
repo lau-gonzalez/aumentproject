@@ -1,0 +1,27 @@
+version: "3"
+
+services:
+  aumentprojectfrontend:
+    image: aumentprojectfrontend
+    build: .
+    ports:
+      - 3000:3000
+    stdin_open: true
+
+  aumentprojectback:
+    container_name: aumentprojectback
+    image: aumentprojectback
+    restart: always
+    ports:
+      - 5000:5000
+    links:
+      - mongo
+
+  mongo:
+    container_name: mongodataaumentproject
+    image: mongo
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./data:/data/db
