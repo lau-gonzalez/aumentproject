@@ -1,0 +1,53 @@
+.card-expanded {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.card {
+  width: 30%;
+}
+
+.btn-close {
+  color: #fff;
+}
+
+.expanded-image {
+  height: 450px;
+}
+
+.card-img-top {
+  height: 250px;
+}
+
+.card-preview {
+  width: 100%;
+  background-color: lightgray;
+}
+
+.buttons-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.clickeable-area {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.card-extrainfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-text {
+  max-width: 800px;
+}
