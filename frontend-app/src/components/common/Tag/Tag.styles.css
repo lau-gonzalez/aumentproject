@@ -1,0 +1,14 @@
+.tag-container {
+  height: 40px;
+  background-color: lightskyblue;
+  color: white;
+  display: flex;
+  width: fit-content;
+  padding: 8px;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+  font-weight: 500;
+  margin-bottom: 16px;
+  margin-top: 16px;
+}
